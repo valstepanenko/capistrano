@@ -1,0 +1,33 @@
+property 56---> Does not have a DID_IP tab on HVVX
+
+* property 57---> 9732420065, 9737182487, 9738780385, 9737189535, 9737189533, 9737189532, 9737189528, 9737189361, 9737187662, 9737182496	listed properly in the 00_inbound_did file
+
+-9737189536 and 9737189540 not listed in the 00_inbound_did file 
+
+-9737189531 is pointing to ext 104 and 109
+
+- 8627728492 is not listed in 00_inbound_did
+
+
+property 58---> 3015902300  correct
+
+property 59---> 3083249900  correct
+
+property 60---> correct and 6468736636 is L3 B listed in the 00_inbound_did file
+
+
+61
+62
+63
+64
+65
+66
+67
+
+
+68
+69
+70
+71
+72
+73

@@ -1,0 +1,19 @@
+Example: 
+
+
+Property would like to the following star codes setup to quick dial outside DIDs:
+
+*31 dials 7038421231  HI GM
+-----------------------------------------------------
+
+Add below code -at following path - /usr/local/freeswitch/conf/dialplan/a0088/11_digit_map.xml
+
+
+<extension name="HI_GM">
+    <condition field="destination_number" expression="^(\*31)$">
+      <action application="set" data="dialed_number=$1"/>
+<action application="set" data="bypass_media=false"/>
+      <action application="bridge" data="sofia/gateway/gateway1/17038421231"/>
+      <action application="hangup"/>
+    </condition>
+  </extension>
