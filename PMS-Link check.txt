@@ -1,0 +1,83 @@
+To check if PMS interface is working fine :
+
+
+cd /var/log/
+
+tail -f <sitecode>-pmsdata.log
+
+To restart the pms link : 
+
+killall -9 pmslink
+
+and then
+
+/opt/pmslink/pmslink
+
+
+
+=========================================
+
+
+ngrep -q -t -d any host ip.ip.ip.ip -x
+
+tail -f /var/log/*pmsdata.log
+
+=======================================================
+
+
+Saw no log file data in /var/log/a0067-pmsdata.log, restarted pmslink by typing killall -9 pmslink followed by /opt/pmslink/pmslink. Required multiple restarts before it became active. After the first restart saw in the log in was reading 71 byts and didn't process any more data. Shutdown the process again and restarted, confirmed all was functioning correctly after this.
+
+=======================================
+
+To check Guest in GI and Guest out / check in check out info in log :
+
+
+
+grep -a RN7209 a0086-pmsdata.log-20161205
+
+----------------------------------------------------
+grep -a error a0076-pmsdata.log
+
+or 
+
+grep -a TIMEOUT a0076-pmsdata.log
+
+
+
+
+
+
+50-60 did ip all numbers winscp public l3 
+
+
+6468809197|
+6468809198|
+2129293888|
+2129339734|
+2129339735|
+2129339736|
+6467274145|
+6467274180|
+6466525844|
+6466525845|
+6466525849|
+6466527709|
+6466527713|
+6466528109|
+6467190696|
+6467190701|
+6467192994|
+6467192998|
+6467362815|
+6467362822|
+6467362829|
+6467362841|
+6467362845|
+6467360174|
+6466511268|
+6466511353|
+6466160470|
+6466160469|
+6466160473|
+6466160471|
+6466160472)$">
